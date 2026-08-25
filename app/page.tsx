@@ -1,4 +1,5 @@
 import { getProducts } from "@/lib/products";
+import AddProductForm from "@/app/components/AddProductForm";
 
 /**
  * 首页组件，查询并展示产品列表
@@ -24,6 +25,7 @@ export default async function Home(){
           </a>
         ))}
       </div>
+      <AddProductForm />
     </main>
   );
 }
